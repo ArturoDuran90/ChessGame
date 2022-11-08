@@ -160,3 +160,7 @@ img{
     color: white;
     border: 0;
 }
+
+button{
+	cursor: pointer;
+}

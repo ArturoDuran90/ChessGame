@@ -1,0 +1,9 @@
+body{
+  background-color: wheat;
+  text-align: center;
+}
+button{
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px;
+}
