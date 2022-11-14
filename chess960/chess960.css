@@ -1,0 +1,152 @@
+/* Styles go here */
+
+body {
+    font-family: "Arial";
+}
+
+h1, h2 {
+    font-family: "Arial";
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+p {
+    margin-bottom: 0px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.notation {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a { 
+    color: #0e732f;
+    font-weight: bold;
+}
+
+.spaceydiv {
+    font-size: 20px;
+}
+
+hr {
+    margin: 8px;
+}
+
+.button {
+    font-size: 18px;
+}
+
+.break {
+    width: 100%;
+}
+
+.reallysmalltext {
+    font-size: 12px;
+}
+
+.quoted {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: italic;
+    font-size: 15.5px;
+}
+
+#outermost {
+    text-align: center;
+    display: block;
+}
+
+#board {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.black {
+    background-color: #5f915c;
+    border: 1px solid black;
+}
+
+.white {
+    border: 1px solid black;
+}
+
+.piece {
+    font-size: 60px;
+    font-family: "Arial";
+}
+
+break{
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
+
+#thisposline {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 24px;
+    display: block;
+    padding-top: 1px;
+    padding-bottom: 6px;
+}
+
+#getpositionsform {
+    text-align: center;
+    font-family: "Arial";
+    
+}
+
+#specificinstruct {
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+
+#getspecificinput {
+    font-size: 18px;
+    text-align: center;
+}
+
+#whatis {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#whatiscontent {
+    flex: 0 0 65%;
+    font-size: 16px;
+    font-family: "Arial";
+    text-align: left;
+}

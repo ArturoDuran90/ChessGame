@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+.piece {
+	font-size: 60px;
+}
 body{
 	background: #ddd;
 }
